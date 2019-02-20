@@ -1,8 +1,36 @@
+@font-face {
+  font-family: "my-font";
+  src: url(../fonts/PatrickHandSC-Regular.ttf);
+}
+
 body {
   color: #fff;
   background-color: #000;
+  font-size: 20px;
+  font-family: "my-font";
 }
+
 
 p {
   text-align: justify;
+}
+
+figure {
+  border: 5px dotted #fff;
+  /* border-left: 5px solid #fff; */
+  border-radius: 100px;
+  text-align: center;
+  padding: 50px;
+  margin: 100px;
+  /* width: 100%; */
+}
+
+img {
+  max-width: 100%;
+}
+
+figcaption {
+  text-align: center;
+  font-style: italic;
+  font-weight: bold;
 }
