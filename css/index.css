@@ -6,23 +6,35 @@ div.people {
 #song-minho {
   background-color: #e6f2ff;
   color: #4da6ff;
-  border: 5px solid #4da6ff
 }
 
 #kim-jisoo {
   background-color: #ffe6e6;
   color: #990000;
-  border: 5px solid #990000
 }
 
 #christian-pulisic {
   background-color: #f9ffe6;
   color: #99cc00;
-  border: 5px solid #99cc00
 }
 
 #nguyen-vu {
   background-color: #fae6ff;
   color: #8f00b3;
-  border: 5px solid #8f00b3
+}
+
+#song-minho figure {
+  border: 5px dotted #4da6ff;
+}
+
+#kim-jisoo figure {
+  border: 5px dotted #990000;
+}
+
+#christian-pulisic figure {
+  border: 5px dotted #99cc00;
+}
+
+#nguyen-vu figure {
+  border: 5px dotted #8f00b3;
 }
