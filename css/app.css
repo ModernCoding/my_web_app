@@ -36,3 +36,7 @@ figcaption {
 audio, video {
   width: 100%;
 }
+
+.my-padding-right-19 {
+  padding-right: 19px;
+}
