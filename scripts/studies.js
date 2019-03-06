@@ -44,5 +44,5 @@ window.onload = function () {
   //       trHighlighteds[i].classList.remove('trHighlighted');
   //     }
   //   });
-  // }
+  // } 
 }

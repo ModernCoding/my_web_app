@@ -1,14 +1,15 @@
-$(window).resize(logScreenSize);
+// $(window).resize(logScreenSize);
 
 
 $(function(){
-  logScreenSize();
+  // logScreenSize();
+  resizeElements(['.my-button-people-name', '.my-button-jump-to-people'])
 });
 
 
 function logScreenSize(){
 
-  var size;
+ var size;
 
   switch (true) {
 
@@ -34,7 +35,30 @@ function logScreenSize(){
 
   }
 
-
   console.log(`The size of your screen is ${size}`);
+
+}
+
+
+function resizeElements(elements){
+
+  $.each(elements, function(index, element){
+    var width = 0;
+
+    $(element).css('width', 'auto');
+
+    $(element).each(function(){
+
+      var thisWidth = parseFloat($(this).css('width'));
+
+      if(thisWidth > width) {
+        width = thisWidth;
+      }
+
+    });
+
+    $(element).css('width', width);
+
+  });
 
 }
