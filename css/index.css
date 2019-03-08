@@ -16,6 +16,42 @@
   padding-left: 9px;
 }
 
+.my-flexbox-container {
+  display: flex;
+  flex-flow: row wrap;
+  align-content: flex-start;
+  justify-content: space-between;
+}
+
+/* h2 nua nka mn */
+.name h1 {
+  font-size: 12px;
+}
+
+@media screen and (min-width: 576px){
+  .name h1 {
+    font-size: 19px;
+  }
+}
+
+@media screen and (min-width: 768px){
+  .name h1 {
+    font-size: 28px;
+  }
+}
+
+@media screen and (min-width: 992px){
+  .name h1 {
+    font-size: 34px;
+  }
+}
+
+@media screen and (min-width: 1200px){
+  .name h1 {
+    font-size: 44px;
+  }
+}
+
 #song-minho {
   background-color: #e6f2ff;
   color: #4da6ff;
@@ -50,4 +86,38 @@
 
 #nguyen-vu figure {
   border: 5px dotted #8f00b3;
+}
+
+#song-minho img {
+  content: url("../images/mino1.jpg")
+}
+
+#kim-jisoo img {
+  content: url("../images/jisoo1.jpg")
+}
+
+#christian-pulisic img {
+  content: url("../images/pulisic1.jpg")
+}
+
+#nguyen-vu img {
+  content: url("../images/dlnv1.jpg")
+}
+
+@media screen and (min-width: 576px) {
+  #song-minho img {
+    content: url("../images/mino2.jpg")
+  }
+
+  #kim-jisoo img {
+    content: url("../images/jisoo2.jpg")
+  }
+
+  #christian-pulisic img {
+    content: url("../images/pulisic2.jpg")
+  }
+
+  #nguyen-vu img {
+    content: url("../images/dlnv2.jpg")
+  }
 }
